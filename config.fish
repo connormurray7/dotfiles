@@ -1,6 +1,6 @@
-export GOPATH="$HOME/go"
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin"
-export PATH="$PATH:$GOPATH/bin:/usr/local/go/bin"
+#export GOPATH="$HOME/go"
+#set PATH /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin $PATH
+set -x PATH $PATH $GOPATH/bin /usr/local/go/bin $HOME/go
 
 alias gs="git status"
 alias gaa="git add --all"
