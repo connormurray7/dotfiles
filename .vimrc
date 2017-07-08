@@ -9,6 +9,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'vim-airline/vim-airline'
+Plugin 'dracula/vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -21,6 +22,7 @@ set shell=/bin/bash
 set encoding=utf-8
 let python_highlight_all=1
 syntax on
+color dracula
 
 let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
 
